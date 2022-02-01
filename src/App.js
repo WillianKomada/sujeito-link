@@ -1,7 +1,9 @@
-export default function App() {
+import RoutesApp from "./routes";
+
+export default function Home() {
   return (
     <div className="app">
-      <h1>Sujeito Link</h1>
+      <RoutesApp />
     </div>
   );
 }
