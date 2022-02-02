@@ -10,7 +10,7 @@ export default function Links() {
         <Link to="/">
           <FiArrowLeft size={38} color="#FFF" />
         </Link>
-        <h1>My Links</h1>
+        <h1>My URLs</h1>
       </div>
 
       <div className="item-links">

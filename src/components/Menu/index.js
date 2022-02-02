@@ -18,7 +18,7 @@ export function Menu() {
       </a>
 
       <Link className="item-menu" to="/links">
-        My Links
+        My URLs
       </Link>
     </div>
   );
