@@ -4,6 +4,7 @@ import { Menu } from "../../components/Menu";
 import { LinkItem } from "../../components/LinkItem";
 
 import api from "../../services/api";
+import { saveLink } from "../../services/storeLinks";
 
 import "./home.css";
 
@@ -14,12 +15,17 @@ export default function Home() {
 
   async function handleShortLink() {
     try {
+      setShowModal(false);
+
       const response = await api.post("/shorten", {
         long_url: link,
       });
 
       setDatalinks(response.data);
       setShowModal(true);
+
+      saveLink("@URLShortener", response.data);
+
       setLink("");
     } catch {
       alert("Algo deu errado! Tente novamente!");

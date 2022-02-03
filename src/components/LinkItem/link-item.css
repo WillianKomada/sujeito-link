@@ -8,17 +8,17 @@
   display: flex;
   flex-direction: column;
 
-  animation: slideY 1.5s;
+  animation: slideX 1.5s;
 }
 
 /* Animation Modal */
-@keyframes slideY {
+@keyframes slideX {
   from {
-    transform: translateY(20%);
+    transform: translateX(20%);
   }
 
   to {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
