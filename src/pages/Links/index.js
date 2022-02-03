@@ -64,7 +64,7 @@ export default function Links() {
             onClick={() => handleOpenShortenedURL(myLink)}
           >
             <FiLink size={18} color="#FFF" />
-            {myLink.long_url}
+            <span>{myLink.long_url}</span>
           </button>
 
           <button

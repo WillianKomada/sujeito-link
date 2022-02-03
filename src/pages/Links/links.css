@@ -43,6 +43,12 @@
   color: #fff;
 }
 
+.link span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .link svg {
   margin-right: 14px;
 }
