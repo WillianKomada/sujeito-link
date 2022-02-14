@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Índice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Imagens do Projeto](#-imagens-do-projeto)
 
-## Available Scripts
+## 📝 Sobre
 
-In the project directory, you can run:
+<p>
+  Uma aplicação simples em ReactJS que utiliza-se de um serviço externo, o Bitly que encurta qualquer URL. Uma aplicação 100% front-end que salva os seus links em cookies. 😀🔥🚀 
+</p>
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>O projeto foi desenvolvido utilizando as seguintes tecnologias 🤓:</p>
 
-### `yarn test`
+- [ReactJS](https://reactjs.org)
+- [Bitly](https://dev.bitly.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 📁 Como baixar o projeto através do Git Bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>Siga estes passos para baixar o meu projeto 😁</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clonar o repositório
+$ git clone https://github.com/WillianKomada/sujeito-link.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Entrar no diretório do projeto
+$ cd sujeito-link
 
-### `yarn eject`
+# Para abrir o visual studio code
+$ code .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Instalar as dependências
+$ yarn install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Iniciar o projeto
+$ yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📷 Imagens do Projeto
 
-## Learn More
+<p>Imagem ilustrativa do projeto 😎 14/02/2022</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ImageKit](https://imagekit.io/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://ik.imagekit.io/cucgno2zqys/link1_LbWsLb8QT8e.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1644862228514" alt="Home Page">
+<img src="https://ik.imagekit.io/cucgno2zqys/link3_W1ls5xvOO.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1644862228509" alt="No Links Page">
+<img src="https://ik.imagekit.io/cucgno2zqys/link2_rk4Lyd8es.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1644862228503" alt="Links Page">
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
